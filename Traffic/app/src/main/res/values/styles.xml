@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="fontFamily">@font/my_fonts</item>
+
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorPrimaryVariant">@color/PrimaryDark</item>
+        <item name="colorOnPrimary">@color/White</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Primary</item>
+        <item name="colorSecondaryVariant">@color/PrimaryDark</item>
+        <item name="colorOnSecondary">@color/White</item>
+        <!-- Status bar color. -->
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+
+        <item name="android:statusBarColor">@color/Primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="fontFamily">@font/my_fonts</item>
+
+    </style>
+
+    <style name="FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
+        <!-- Customize your theme here. -->
+
+        <item name="android:statusBarColor">@color/White</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="fontFamily">@font/my_fonts</item>
+
+    </style>
+
+    <style name="my_dialog_theme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/Accent</item>                   <!--header background-->
+<!--                <item name="android:windowBackground">@color/md_red_500</item>     &lt;!&ndash;calendar background&ndash;&gt;-->
+<!--                        <item name="android:colorControlActivated">@color/md_red_600</item> &lt;!&ndash;selected day&ndash;&gt;-->
+<!--                        <item name="android:textColorPrimary">@color/Accent</item>      &lt;!&ndash;days of the month&ndash;&gt;-->
+<!--                        <item name="android:textColorSecondary">@color/md_blue_600</item>    &lt;!&ndash;days of the week&ndash;&gt;-->
+<!--                <item name="android:textStyle">bold</item>-->
+
+        <item name="fontFamily">@font/my_fonts</item>
+
+    </style>
+
+
+    <style name="custom_toolbar" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="fontFamily">@font/my_fonts</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppTheme.WhiteAccent">
+        <item name="colorAccent">@color/Accent</item> <!-- Whatever color you want-->
+    </style>
+
+
+</resources>

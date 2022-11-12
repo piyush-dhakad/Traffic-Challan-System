@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textSmall">10sp</dimen>
+    <dimen name="textNormal">14sp</dimen>
+    <dimen name="textHeading1">16sp</dimen>
+    <dimen name="textHeading2">19sp</dimen>
+    <dimen name="textHeading3">21sp</dimen>
+    <dimen name="textHeading4">24sp</dimen>
+    <dimen name="textHeading5">27sp</dimen>
+    <dimen name="textHeading6">30sp</dimen>
+
+    <dimen name="defaultSize1">10sp</dimen>
+    <dimen name="defaultSize2">20sp</dimen>
+    <dimen name="defaultSize3">30sp</dimen>
+    <dimen name="defaultSize4">40sp</dimen>
+    <dimen name="defaultSize5">50sp</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+    <dimen name="box_inset_layout_padding">0dp</dimen>
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="inner_frame_layout_padding">5dp</dimen>
+
+
+
+</resources>

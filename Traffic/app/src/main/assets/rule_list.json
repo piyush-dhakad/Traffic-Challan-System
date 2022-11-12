@@ -1,0 +1,41 @@
+[{
+        "rule": "Driving without license",
+        "fine": 5000
+    }, {
+        "rule": "Unauthorized use of vehicles without license",
+        "fine": 5000
+    }, {
+        "rule": "Driving without qualification",
+        "fine": 10000
+    }, {
+        "rule": "Speeding",
+        "fine": 2000
+    }, {
+        "rule": "Rash Driving",
+        "fine": 5000
+    }, {
+        "rule": "Drunken Driving",
+        "fine": 2000
+    }, {
+        "rule": "Overloading of Two Wheelers",
+        "fine": 2000
+    }, {
+        "rule": "Driving without Insurance",
+        "fine": 2000
+    }, {
+        "rule": "Offences by Juveniles",
+        "fine": 25000
+    }, {
+        "rule": "Not Giving Way to Ambulance",
+        "fine": 10000
+    }, {
+        "rule": "Driving without Proper Qualification",
+        "fine": 10000
+    }, {
+        "rule": "Jumping Red Light",
+        "fine": 1000
+    }, {
+        "rule": "Not Wearing Helmet",
+        "fine": 1000
+    }
+]

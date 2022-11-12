@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:awesome="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".other.LogInActivity"
+    android:scrollbars="vertical"
+    android:background="@color/White"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.CardView"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOG-IN"
+            android:textColor="@color/header2"
+            android:gravity="center"
+            android:textSize="@dimen/textHeading3"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log In to continue"
+            android:textColor="@color/header3"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textColor="@color/Accent"
+            android:layout_marginTop="30dp"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/txt_user_name"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_round_stroke1"
+            android:padding="5dp"
+            android:hint="Username"
+            android:inputType="textEmailAddress"
+            android:maxLength="40"
+            android:textColor="@color/header3"
+            android:textSize="16sp"
+            />
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@color/Accent"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/txt_password"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectangle_round_stroke1"
+            android:padding="5dp"
+            android:hint="Password"
+            android:textColor="@color/header3"
+            android:textSize="16sp"
+            android:maxLength="40"
+            android:inputType="textPassword"
+            />
+
+
+
+        <TextView
+            android:id="@+id/txt_log_in"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="log-in"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/White"
+            android:background="@drawable/rectangle_round_primary"
+            android:textStyle="bold"
+            android:padding="7dp"
+            android:layout_marginTop="20dp"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

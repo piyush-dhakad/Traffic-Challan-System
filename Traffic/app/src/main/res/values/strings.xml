@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Digital Penalty Receipt Generator</string>
+    <string name="app_version">Version 0.0.0.1</string>
+
+
+    <string name="dashboard">Dashboard</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>
